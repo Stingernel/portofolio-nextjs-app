@@ -27,7 +27,7 @@ const projects = [
     title: "project 1",
     description: "pembuatan website Event",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/public/asset/work/pertama.png",
+    Image: "asset/work/pertama.png",
     live: "",
     github: "",
   },
@@ -37,7 +37,7 @@ const projects = [
     title: "project 2",
     description: "restaurant website",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/public/asset/work/kedua.png",
+    Image: "asset/work/kedua.png",
     live: "",
     github: "",
   },
@@ -47,7 +47,7 @@ const projects = [
     title: "project 3",
     description: "website pembahasan technology",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/public/asset/work/ketiga.png",
+    Image: "asset/work/ketiga.png",
     live: "",
     github: "",
   },
@@ -57,7 +57,7 @@ const projects = [
     title: "project 4",
     description: "Web form Pendaftaran",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Boostrap 5" }],
-    image: "/public/asset/work/keempat.png",
+    Image: "asset/work/keempat.png",
     live: "",
     github: "",
   },
@@ -154,7 +154,7 @@ const Work = () => {
                       {/* gambar */}
                       <div className="relative w-full h-full">
                         <Image
-                          src={project.image}
+                          src={project.Image}
                           fill
                           className="object-cover"
                           alt="Gambar web"
