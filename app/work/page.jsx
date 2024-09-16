@@ -56,7 +56,7 @@ const projects = [
     category: "frontend",
     title: "project 4",
     description: "Web form Pendaftaran",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Boostrap 5" }],
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "boostrap 5" }],
     image: "asset/work/keempat.png",
     live: "",
     github: "",
