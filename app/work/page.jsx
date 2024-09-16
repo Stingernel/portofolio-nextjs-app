@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/tooltip";
 
 import Link from "next/link";
-import image from "next/image";
+import Image from "next/image";
 import { Description, Title } from "@radix-ui/react-dialog";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
