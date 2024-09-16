@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/tooltip";
 
 import Link from "next/link";
-import Image from "next/image";
+import image from "next/image";
 import { Description, Title } from "@radix-ui/react-dialog";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
@@ -27,7 +27,7 @@ const projects = [
     title: "project 1",
     description: "pembuatan website Event",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    Image: "asset/work/pertama.png",
+    image: "asset/work/pertama.png",
     live: "",
     github: "",
   },
@@ -37,7 +37,7 @@ const projects = [
     title: "project 2",
     description: "restaurant website",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    Image: "asset/work/kedua.png",
+    image: "asset/work/kedua.png",
     live: "",
     github: "",
   },
@@ -47,7 +47,7 @@ const projects = [
     title: "project 3",
     description: "website pembahasan technology",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    Image: "asset/work/ketiga.png",
+    image: "asset/work/ketiga.png",
     live: "",
     github: "",
   },
@@ -57,7 +57,7 @@ const projects = [
     title: "project 4",
     description: "Web form Pendaftaran",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Boostrap 5" }],
-    Image: "asset/work/keempat.png",
+    image: "asset/work/keempat.png",
     live: "",
     github: "",
   },
@@ -153,8 +153,8 @@ const Work = () => {
                       <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                       {/* gambar */}
                       <div className="relative w-full h-full">
-                        <image
-                          src={project.Image}
+                        <Image
+                          src={project.image}
                           fill
                           className="object-cover"
                           alt="Gambar web"
