@@ -153,7 +153,7 @@ const Work = () => {
                       <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                       {/* gambar */}
                       <div className="relative w-full h-full">
-                        <Image
+                        <image
                           src={project.Image}
                           fill
                           className="object-cover"
